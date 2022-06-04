@@ -33,6 +33,14 @@
             flex-basis: 200px;
         }
 
+        .s-2 {
+            flex-shrink: 2;
+        }
+
+        .s-3 {
+            flex-shrink: 3;
+        }
+
     </style>
 </head>
 <body>
@@ -62,22 +70,15 @@
         <div class="item s-0 fg-1">E</div>
     </div>
 
+    <p>flex-shrink: mix / basis: 100px</p>
     <div class="flex-container">
         <div class="item s-1 fg-1">A</div>
         <div class="item s-1 fg-1">B</div>
-        <div class="item s-1 fg-1">The generated</div>
-        <div class="item s-1 fg-1">D</div>
-        <div class="item s-1 fg-1">E</div>
+        <div class="item s-1 fg-2">The generated</div>
+        <div class="item s-1 fg-2">D</div>
+        <div class="item s-1 fg-3">E</div>
     </div>
 
-    <p>flex-shrink: 0 / basis: 100px</p>
-    <div class="flex-container">
-        <div class="item s-1 fg-1">A</div>
-        <div class="item s-1 fg-1">B</div>
-        <div class="item s-1 fg-1">The generated</div>
-        <div class="item s-1 fg-1">D</div>
-        <div class="item s-1 fg-1">E</div>
-    </div>
-
+    
 </body>
 </html>
