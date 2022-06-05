@@ -24,6 +24,7 @@ div img {
     max-width: 992px;
     margin: auto;
     width: 100%;
+    min-width: 320px;
 }
 
 header {
@@ -59,6 +60,7 @@ header .menu {
 
 .presentation .text-presentation {
     min-height: 200px;
+    
 }
 
 .text-presentation h1 {
@@ -86,6 +88,11 @@ header .menu {
     
     align-items: center;
     justify-content: space-between;
+}
+
+#about-us img {
+    min-width: 320px;
+    margin: auto;
 }
 
 #about-us h2 {
@@ -235,4 +242,51 @@ header .menu {
     height: 10px;
     background-color: #122a57;
     margin-right: 5px;
+}
+
+footer {
+    background-color: #122a57;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer {
+    justify-content: space-between;
+    color: #FFF  ;
+}
+
+/* Mobile: */
+@media(max-width: 992px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .presentation {
+        flex-direction: column-reverse;
+    }
+    .presentation .text-presentation {
+        width: 100%;;
+    }
+    #about-us {
+        flex-direction: column-reverse;
+    }
+    .list-services {
+        flex-direction: column;
+    }
+    .item.item-services img {
+        width: 50%;
+        margin: auto;
+    }
+
+    .list-plans {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+    .list-plans .item-plan {
+        max-width: 90%;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
