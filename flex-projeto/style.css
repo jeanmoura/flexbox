@@ -168,3 +168,18 @@ header .menu {
     margin: auto;
     
 }
+
+#plans {
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.list-plans {
+    display: flex;
+    align-items: flex-end;
+}
+
+.item-plan {
+    flex: 1;
+    border: 2px solid #122a57;
+}
