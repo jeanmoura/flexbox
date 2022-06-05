@@ -204,4 +204,11 @@ header .menu {
     width: 100%;
     height: 3px;
     margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.item-plan ul {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
 }
