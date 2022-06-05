@@ -14,6 +14,11 @@ ul li a{
     text-decoration: none;
 }
 
+div img {
+    display: block;
+    width: 100%;
+}
+
 .flex-container {
     display: flex;
     max-width: 992px;
@@ -66,7 +71,7 @@ header .menu {
     background-color: #122a57;
     color: #FFF;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 48px;
     width: 220px;
     display: block;
     text-decoration: none;
@@ -103,4 +108,8 @@ header .menu {
 #about-us p {
     margin-bottom: 10px;
     width: 90%;
+}
+
+#about-us img {
+    min-width: 420px;
 }
