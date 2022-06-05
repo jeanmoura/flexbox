@@ -113,3 +113,17 @@ header .menu {
 #about-us img {
     min-width: 420px;
 }
+
+.container-ex {
+    background-color: #122a57;
+    width: 100%;
+}
+
+#services {
+    flex-direction: column;
+}
+
+.list-services {
+    display: flex;
+    justify-content: space-around;
+}
