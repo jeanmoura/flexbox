@@ -121,9 +121,21 @@ header .menu {
 
 #services {
     flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#services h2 {
+    color: #FFF;
+    font-size: 32px;
+    margin-bottom: 10px;
 }
 
 .list-services {
     display: flex;
     justify-content: space-around;
+}
+
+.list-services .item-services {
+    text-align: center;
 }
