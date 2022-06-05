@@ -90,6 +90,7 @@ header .menu {
     margin-bottom: 20px;
 }
 
+/* the Color bllue detail before text*/
 #about-us h2::before {
     content: "";
     height: 50px;
